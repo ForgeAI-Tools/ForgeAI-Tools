@@ -56,11 +56,11 @@ python app.py
 ---
 
 ### ⚡ NEX
-An A prototype agentic coding assistant designed to explore tool usage, 
-reasoning workflows, and code generation patterns.
-built on the **CodeWizard LLM engine**. NEX supports development workflows 
-through intelligent code generation, reasoning, and 
-automation — designed for developers who move fast.
+A prototype agentic coding assistant built on the 
+CodeWizard LLM engine, designed to explore tool 
+usage, reasoning workflows, and code generation 
+patterns. NEX supports development workflows through 
+intelligent code generation and structured reasoning.
 
 **Stack:** Python · CodeWizard LLM · Agentic AI · 
 Code Generation
@@ -84,7 +84,7 @@ analysis pipelines.
 ## 🔥 Features
 
 - **Live Threat Feed** — rotating security alert 
-  stream with real-time anomaly detection simulation
+  stream with simulated anomaly detection and alerting patterns
 - **Resource Monitor** — live CPU and memory usage 
   tracking with animated progress bars  
 - **EQ Pulse Visualizer** — animated canvas equalizer 
@@ -102,10 +102,8 @@ analysis pipelines.
 
 ## 🚀 Getting Started
 
-\`\`\`bash
 npm install
 npm run dev
-\`\`\`
 
 ## 🔭 Roadmap
 
@@ -120,10 +118,9 @@ npm run dev
 ---
 
 ### 📞 Om-Call
-A multilingual AI translator and **live call-center 
-simulator** demonstrating generative AI in real-world 
-communication workflows. Supports multiple languages 
-with real-time translation and call simulation.
+A multilingual AI communication prototype simulating 
+real-time translation and call-center workflows 
+using generative AI and voice processing.
 
 **Stack:** Python · Generative AI · Translation APIs · 
 Voice Simulation
@@ -151,10 +148,8 @@ Executive AI assistant. Always at your 6.
 **AI & Generative AI**
 - Large Language Models (LLMs) — local deployment 
 via Ollama
-- RAG pipeline architecture — Azure AI Search + 
-prompt flow
-- Agentic AI development — multi-step autonomous 
-workflows
+- RAG pipeline architecture — Azure AI Search + LLM orchestration
+- Agentic AI patterns — tool usage, orchestration, and multi-step workflows
 - Azure OpenAI API · OCI AI Services · LangChain
 
 **Security & Identity**
