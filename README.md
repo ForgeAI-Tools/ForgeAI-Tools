@@ -1,7 +1,6 @@
 # 🔥 Forge AI Tools
 
-**Building intelligent AI systems at the intersection of 
-security, automation, and generative AI.**
+**Building AI systems focused on generative AI, automation, and secure enterprise workflows.**
 
 > Founded by Michael Anderson — AI Engineer, Security+ 
 Certified, Azure AI Engineer Associate (AI-102 — 
@@ -15,9 +14,9 @@ March 30th, 2026)
 
 A voice-enabled AI tutoring assistant built on Flask 
 and Ollama for local LLM deployment. Professor Robin 
-assists with certification study through intelligent 
-conversation, adaptive Q&A, and spoken responses — 
+assists with certification study through interactive Q&A, structured study workflows, and spoken responses — 
 replacing passive reading with active AI-guided recall.
+Designed as a prototype to explore local LLM orchestration, voice interfaces, and AI-assisted learning workflows.
 
 ## 🔥 Features
 
@@ -57,8 +56,9 @@ python app.py
 ---
 
 ### ⚡ NEX
-An agentic coding assistant built on the **CodeWizard 
-LLM engine**. NEX supports development workflows 
+An A prototype agentic coding assistant designed to explore tool usage, 
+reasoning workflows, and code generation patterns.
+built on the **CodeWizard LLM engine**. NEX supports development workflows 
 through intelligent code generation, reasoning, and 
 automation — designed for developers who move fast.
 
@@ -67,13 +67,19 @@ Code Generation
 
 ---
 
-# 🛡️ Omnys — AI-Driven SOC Lite Dashboard
+🛡️ Omnys — AI-Driven SOC Lite Dashboard
 
-A real-time security operations dashboard built with 
-React 19, Vite, and Tailwind CSS. Omnys provides live 
-threat monitoring, system resource tracking, and 
-voice-interface capabilities — designed as the UI 
-layer for an AI-driven SOC Lite agent.
+A modern security operations dashboard built with 
+React, Vite, and Tailwind CSS, designed to visualize 
+system activity, surface potential threats, and 
+serve as a front-end interface for 
+AI-assisted SOC workflows.
+
+Currently operates with simulated data to model 
+real-time monitoring and alerting behavior, with 
+architecture designed for integration with live 
+security APIs, identity systems, and AI-driven 
+analysis pipelines.
 
 ## 🔥 Features
 
