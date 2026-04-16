@@ -146,7 +146,7 @@ Executive AI assistant. Always at your 6.
 
 | Certification | Status |
 |--------------|--------|
-| Microsoft Azure AI Engineer Associate (AI-102) | ⏳ Exam: March 30th, 2026 |
+| Microsoft Azure AI Engineer Associate (AI-102) | ⏳ Exam: May 29th, 2026 |
 | CompTIA Security+ (SY0-701) | ✅ Active 2025–2028 |
 | Oracle Cloud Infrastructure AI Foundations | ✅ 2025 |
 
