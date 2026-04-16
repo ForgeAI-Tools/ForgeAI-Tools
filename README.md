@@ -125,6 +125,15 @@ using generative AI and voice processing.
 **Stack:** Python · Generative AI · Translation APIs · 
 Voice Simulation
 
+
+---
+
+### 🧠 Maester Qwen
+A local-first generative AI system focused on image, animation, and agentic workflow development.
+
+Built to explore the transition from prompt-based interaction to structured, tool-using AI systems.
+
+→ See docs: `/docs/maester-qwen.md`
 ---
 
 ### 🔒 Gravity
