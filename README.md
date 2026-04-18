@@ -2,9 +2,7 @@
 
 **Building AI systems focused on generative AI, automation, and secure enterprise workflows.**
 
-> Founded by Michael Anderson — AI Engineer, Security+ 
-Certified, Azure AI Engineer Associate (AI-102 — 
-March 30th, 2026)
+> Built by Michael Anderson — Security+ Certified | AI Engineer (in progress)
 
 ---
 
@@ -56,14 +54,14 @@ python app.py
 ---
 
 ### ⚡ NEX
-A prototype agentic coding assistant built on the 
-CodeWizard LLM engine, designed to explore tool 
-usage, reasoning workflows, and code generation 
-patterns. NEX supports development workflows through 
-intelligent code generation and structured reasoning.
+A prototype agentic coding assistant designed to explore tool-based reasoning and code generation workflows.
 
-**Stack:** Python · CodeWizard LLM · Agentic AI · 
-Code Generation
+Focus:
+- structured prompt-to-code pipelines
+- multi-step reasoning
+- tool usage patterns for development workflows
+
+Stack: Python · CodeWizard LLM · Agentic AI
 
 ---
 
@@ -129,17 +127,37 @@ Voice Simulation
 ---
 
 ### 🧠 Maester Qwen
-A local-first generative AI system focused on image, animation, and agentic workflow development.
+A local AI reasoning system built on Ollama using the Qwen 3 14B model and WebUI.
 
-Built to explore the transition from prompt-based interaction to structured, tool-using AI systems.
+Designed to demonstrate local LLM deployment and serve as a foundation for agentic AI workflows, including planned integration with external APIs for reference retrieval and tool-augmented reasoning.
 
-→ See docs: `/docs/maester-qwen.md`
+Focus areas:
+- Local inference and system control
+- Agentic workflow design (tool use, API calls)
+- Structured reasoning and response generation
+
+→ See docs: /docs/maester-qwen.md
 ---
 
 ### 🔒 Gravity
 *Private development — Castle Black operations.*
 Executive AI assistant. Always at your 6.
 
+---
+🧱 System Architecture
+
+Forge AI Tools is structured across three core layers:
+
+Engineering Layer
+→ Infrastructure, automation, and system development (ForgeAI-Tools)
+
+Intelligence Layer
+→ Local AI reasoning systems and agentic workflows (Maester Qwen, NEX)
+
+Content Layer
+→ Generative media and user-facing AI applications (Professor Robin, AIFU)
+
+This layered design supports scalable AI system development, from infrastructure to intelligent decision-making to final output.
 ---
 
 ## 🎓 Certifications
