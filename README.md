@@ -63,54 +63,40 @@ It features:
 
 ---
 
-🛡️ Omnys — AI-Driven SOC Lite Dashboard
+🛡️ Omnys — AI-Assisted SOC Dashboard
 
-A modern security operations dashboard built with 
-React, Vite, and Tailwind CSS, designed to visualize 
-system activity, surface potential threats, and 
-serve as a front-end interface for 
-AI-assisted SOC workflows.
+A security operations dashboard built with React and TypeScript to visualize system activity, surface anomalies, and provide a foundation for AI-assisted threat analysis workflows.
 
-Currently operates with simulated data to model 
-real-time monitoring and alerting behavior, with 
-architecture designed for integration with live 
-security APIs, identity systems, and AI-driven 
-analysis pipelines.
+Designed with real-time monitoring patterns, the system includes a live alert feed, resource tracking, and interactive UI components that mirror modern SOC environments.
 
-## 🔥 Features
+While currently operating on controlled data streams, the architecture is structured for direct integration with security telemetry sources, identity platforms, and AI-driven detection pipelines.
 
-- **Live Threat Feed** — rotating security alert 
-  stream with simulated anomaly detection and alerting patterns
-- **Resource Monitor** — live CPU and memory usage 
-  tracking with animated progress bars  
-- **EQ Pulse Visualizer** — animated canvas equalizer 
-  representing system activity and AI listening state
-- **Voice Interface** — click-to-activate listening 
-  panel with pulse animation for voice AI integration
+🔥 Key Capabilities
 
-## 🛠️ Tech Stack
+Live alert stream with anomaly-style event patterns
+System resource monitoring with real-time visual feedback
+Interactive visualization layer for system activity (Canvas API)
+Voice-ready interface for AI-driven SOC interaction workflows
 
-- React 19
-- Vite 7
-- Tailwind CSS 3
-- HTML5 Canvas API
-- TypeScript
+🛠️ Tech Stack
+React · TypeScript · Vite · Tailwind · Canvas API
 
 ## 🚀 Getting Started
+
+This project is a front-end prototype and can be run locally:
 
 npm install
 npm run dev
 
-## 🔭 Roadmap
+## 🔭 Status
 
-- Integrate Omnys AI agent backend
-- Connect real IAM/PAM data feeds
-- Add voice command processing via Whisper
-- Expand threat classification with Azure AI
-\`\`\`
+Prototype complete — focused on UI, system visualization, and architecture design.
 
----
+## 🧭 Future Direction
 
+- Integration with real security telemetry (logs, alerts, IAM events)
+- Backend service for alert ingestion and processing
+- Optional AI-assisted analysis layer for anomaly interpretation
 ---
 
 ### 📞 Om-Call
