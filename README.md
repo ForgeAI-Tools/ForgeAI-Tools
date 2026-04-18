@@ -53,15 +53,13 @@ python app.py
 
 ---
 
-### ⚡ NEX
-A prototype agentic coding assistant designed to explore tool-based reasoning and code generation workflows.
+### ⚡ NEX is a local AI-assisted development companion designed to support system design, code generation, and document analysis.
 
-Focus:
-- structured prompt-to-code pipelines
-- multi-step reasoning
-- tool usage patterns for development workflows
-
-Stack: Python · CodeWizard LLM · Agentic AI
+It features:
+- memory persistence (short + long term)
+- file ingestion and summarization
+- structured reasoning responses
+- threaded UI interaction
 
 ---
 
