@@ -4,6 +4,38 @@
 
 > Built by Michael Anderson — Security+ Certified | AI Engineer (in progress)
 
+## 🏰 Forge Ecosystem
+
+Forge AI Tools is an ecosystem of AI, automation, security, and infrastructure projects designed to explore practical applications of local AI, agent orchestration, security operations, and intelligent system management.
+
+The platform is organized around several core systems:
+
+### 🛡️ Omnys
+
+AI-assisted infrastructure, security, and operations platform serving as the command layer of the ecosystem.
+
+### 🏰 Forge Server (G1)
+
+Primary application, automation, and AI services host.
+
+### ❄️ Night King (G2)
+
+Dedicated security, monitoring, research, and advanced analysis platform.
+
+### 🧠 Maester Qwen
+
+Local reasoning and agentic AI platform built on Ollama and Qwen models.
+
+### 🎓 Professor Robin
+
+Voice-enabled certification tutor focused on active learning and AI-assisted education.
+
+### ⚡ NEX
+
+AI-assisted development companion for engineering, code generation, and document analysis.
+
+Together these systems form a continuously evolving AI laboratory focused on secure, practical, and locally deployable AI solutions.
+
 ---
 
 ## 🚀 Featured Projects
