@@ -63,40 +63,131 @@ It features:
 
 ---
 
-🛡️ Omnys — AI-Assisted SOC Dashboard
+# 🛡️ Omnys — AI-Assisted Infrastructure & Security Operations Platform
 
-A security operations dashboard built with React and TypeScript to visualize system activity, surface anomalies, and provide a foundation for AI-assisted threat analysis workflows.
+Omnys is an AI-assisted infrastructure, security, and operations platform designed to provide centralized visibility across systems, services, and future autonomous agents.
 
-Designed with real-time monitoring patterns, the system includes a live alert feed, resource tracking, and interactive UI components that mirror modern SOC environments.
+Originally developed as a Security Operations Center (SOC) dashboard prototype, the project has evolved into a broader orchestration platform focused on security monitoring, system awareness, infrastructure health, and AI-assisted operational workflows.
 
-While currently operating on controlled data streams, the architecture is structured for direct integration with security telemetry sources, identity platforms, and AI-driven detection pipelines.
+The long-term vision is to create a unified command interface capable of monitoring environments, analyzing telemetry, coordinating specialized services, and providing natural language interaction for operational management.
 
-🔥 Key Capabilities
+---
 
-Live alert stream with anomaly-style event patterns
-System resource monitoring with real-time visual feedback
-Interactive visualization layer for system activity (Canvas API)
-Voice-ready interface for AI-driven SOC interaction workflows
+## 🔥 Current Capabilities
 
-🛠️ Tech Stack
-React · TypeScript · Vite · Tailwind · Canvas API
+* Real-time alert stream and event visualization
+* System resource monitoring and health tracking
+* Interactive activity visualization using the Canvas API
+* Modular dashboard architecture built for future expansion
+* Voice-ready interface foundation for AI-assisted workflows
+* Responsive UI designed around modern SOC and NOC patterns
+
+---
+
+## 🏗️ Platform Vision
+
+Omnys is being developed as the central operational layer for a larger ecosystem of services and infrastructure.
+
+Future platform responsibilities include:
+
+* Security monitoring and alert correlation
+* Infrastructure and service health monitoring
+* Identity and access visibility
+* AI-assisted operational analysis
+* Multi-system coordination and orchestration
+* Natural language interaction and voice operations
+* Integration with dedicated compute and security platforms
+* Support for future robotics, sensor networks, and automation systems
+
+---
+
+## 🖥️ Ecosystem Architecture
+
+### Omnys
+
+Central command, monitoring, and orchestration platform.
+
+### Forge Server (G1)
+
+Primary application and automation host responsible for operational services, AI tooling, and platform workloads.
+
+### Night King (G2)
+
+Dedicated security, research, monitoring, and advanced analysis platform supporting Omnys operations.
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Canvas API
+
+---
 
 ## 🚀 Getting Started
 
-This project is a front-end prototype and can be run locally:
+This project currently operates as a front-end platform prototype and can be run locally:
 
+```bash
 npm install
 npm run dev
+```
 
-## 🔭 Status
+---
 
-Prototype complete — focused on UI, system visualization, and architecture design.
+## 🧭 Development Roadmap
 
-## 🧭 Future Direction
+### Phase 1 — Interface Foundation
 
-- Integration with real security telemetry (logs, alerts, IAM events)
-- Backend service for alert ingestion and processing
-- Optional AI-assisted analysis layer for anomaly interpretation
+✅ Dashboard architecture
+
+✅ Visualization layer
+
+✅ System monitoring views
+
+### Phase 2 — Telemetry Integration
+
+⬜ Log ingestion
+
+⬜ Security events
+
+⬜ Infrastructure telemetry
+
+### Phase 3 — AI-Assisted Operations
+
+⬜ Event analysis
+
+⬜ Operational recommendations
+
+⬜ Natural language interactions
+
+### Phase 4 — Platform Orchestration
+
+⬜ Multi-system awareness
+
+⬜ Service coordination
+
+⬜ Cross-platform automation
+
+### Phase 5 — Autonomous Ecosystem Expansion
+
+⬜ Sensor integration
+
+⬜ Robotics support
+
+⬜ Distributed operational agents
+
+---
+
+## 📌 Project Status
+
+Active development.
+
+Current focus is expanding Omnys from a dashboard prototype into a centralized AI-assisted operations platform capable of supporting security, infrastructure, automation, and future autonomous systems.
+
 ---
 
 ### 📞 Om-Call
