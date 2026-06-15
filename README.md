@@ -239,9 +239,8 @@ This layered design supports scalable AI system development, from infrastructure
 
 | Certification | Status |
 |--------------|--------|
-| Microsoft Azure AI Engineer Associate (AI-102) | ⏳ Exam: May 29th, 2026 |
 | CompTIA Security+ (SY0-701) | ✅ Active 2025–2028 |
-| Oracle Cloud Infrastructure AI Foundations | ✅ 2025 |
+| Oracle Cloud Infrastructure AI Foundations | ✅ Active 2025-2027 |
 
 ---
 
