@@ -1,313 +1,262 @@
-# 🔥 Forge AI Tools
+# Forge AI Tools
 
-**Building AI systems focused on generative AI, automation, and secure enterprise workflows.**
+**Local AI, automation, security visibility, and operations engineering.**
 
-> Built by Michael Anderson — Security+ Certified | AI Engineer (in progress)
-
-## 🏰 Forge Ecosystem
-
-Forge AI Tools is an ecosystem of AI, automation, security, and infrastructure projects designed to explore practical applications of local AI, agent orchestration, security operations, and intelligent system management.
-
-The platform is organized around several core systems:
-
-### 🛡️ Omnys
-
-AI-assisted infrastructure, security, and operations platform serving as the command layer of the ecosystem.
-
-### 🏰 Forge Server (G1)
-
-Primary application, automation, and AI services host.
-
-### ❄️ Night King (G2)
-
-Dedicated security, monitoring, research, and advanced analysis platform.
-
-### 🧠 Maester Qwen
-
-Local reasoning and agentic AI platform built on Ollama and Qwen models.
-
-### 🎓 Professor Robin
-
-Voice-enabled certification tutor focused on active learning and AI-assisted education.
-
-### ⚡ NEX
-
-AI-assisted development companion for engineering, code generation, and document analysis.
-
-Together these systems form a continuously evolving AI laboratory focused on secure, practical, and locally deployable AI solutions.
+Built by Michael Anderson — CompTIA Security+ Certified | AI Engineer in progress
 
 ---
 
-## 🚀 Featured Projects
+## Overview
 
-# 🤖 Professor Robin — AI-Powered Certification Tutor
+Forge AI Tools is a practical AI and automation lab focused on locally deployable systems, secure operations, infrastructure visibility, and AI-assisted workflows.
 
-A voice-enabled AI tutoring assistant built on Flask 
-and Ollama for local LLM deployment. Professor Robin 
-assists with certification study through interactive Q&A, structured study workflows, and spoken responses — 
-replacing passive reading with active AI-guided recall.
-Designed as a prototype to explore local LLM orchestration, voice interfaces, and AI-assisted learning workflows.
+The project is built around a simple operating principle:
 
-## 🔥 Features
-
-- **Voice Input** — Speech-to-text via OpenAI Whisper 
-  for hands-free study sessions
-- **Voice Output** — Text-to-speech responses via 
-  pyttsx3 — Robin talks back
-- **Local LLM** — Runs entirely on local hardware via 
-  Ollama — no cloud dependency
-- **Web Interface** — Flask-powered chat UI accessible 
-  from any browser
-- **Custom Persona** — Warm, intelligent tutor persona 
-  engineered via system prompt
-
-## 🛠️ Tech Stack
-
-- Python · Flask
-- Ollama (Local LLM)
-- OpenAI Whisper (Speech-to-Text)
-- pyttsx3 (Text-to-Speech)
-- HTML/CSS (Frontend)
-
-## 🚀 Getting Started
-```bash
-pip install flask pyttsx3 openai-whisper werkzeug
-ollama pull professor-robin
-python app.py
+```text
+Build useful tools. Secure the environment. Observe what matters. Automate carefully. Keep human authority in the loop.
 ```
 
-## 🔭 Roadmap
-
-- Adaptive question difficulty based on performance
-- Multi-certification support beyond Security+
-- Spaced repetition memory system
-- Integration with Forge AI Tools knowledge hub
+Current development focuses on an AI-assisted operations stack that combines local services, security telemetry, workflow automation, and advisory LLM review.
 
 ---
 
-### ⚡ NEX is a local AI-assisted development companion designed to support system design, code generation, and document analysis.
-
-It features:
-- memory persistence (short + long term)
-- file ingestion and summarization
-- structured reasoning responses
-- threaded UI interaction
-
----
-
-# 🛡️ Omnys — AI-Assisted Infrastructure & Security Operations Platform
-
-Omnys is an AI-assisted infrastructure, security, and operations platform designed to provide centralized visibility across systems, services, and future autonomous agents.
-
-Originally developed as a Security Operations Center (SOC) dashboard prototype, the project has evolved into a broader orchestration platform focused on security monitoring, system awareness, infrastructure health, and AI-assisted operational workflows.
-
-The long-term vision is to create a unified command interface capable of monitoring environments, analyzing telemetry, coordinating specialized services, and providing natural language interaction for operational management.
-
----
-
-## 🔥 Current Capabilities
-
-* Real-time alert stream and event visualization
-* System resource monitoring and health tracking
-* Interactive activity visualization using the Canvas API
-* Modular dashboard architecture built for future expansion
-* Voice-ready interface foundation for AI-assisted workflows
-* Responsive UI designed around modern SOC and NOC patterns
-
----
-
-## 🏗️ Platform Vision
-
-Omnys is being developed as the central operational layer for a larger ecosystem of services and infrastructure.
-
-Future platform responsibilities include:
-
-* Security monitoring and alert correlation
-* Infrastructure and service health monitoring
-* Identity and access visibility
-* AI-assisted operational analysis
-* Multi-system coordination and orchestration
-* Natural language interaction and voice operations
-* Integration with dedicated compute and security platforms
-* Support for future robotics, sensor networks, and automation systems
-
----
-
-## 🖥️ Ecosystem Architecture
+## Core Systems
 
 ### Omnys
 
-Central command, monitoring, and orchestration platform.
+Omnys is the local operations and security visibility layer. It is designed to collect evidence, summarize system state, surface visibility gaps, and support human-reviewed operational workflows.
 
-### Forge Server (G1)
+Current Omnys focus areas:
 
-Primary application and automation host responsible for operational services, AI tooling, and platform workloads.
+- Wazuh visibility checks
+- UDM Pro / TheWall syslog visibility
+- Local report and event artifact generation
+- n8n workflow bridge integration
+- Advisory handoff to Qwen
+- Read-only security and operations observation
 
-### Night King (G2)
+### Forge Server
 
-Dedicated security, research, monitoring, and advanced analysis platform supporting Omnys operations.
+Forge Server is the primary local application, automation, and AI services host. It supports project workloads, local scripts, service orchestration, and evidence collection.
+
+Current Forge Server responsibilities:
+
+- Local application hosting
+- Automation workflows
+- Omnys probes and reports
+- Wazuh deployment support
+- n8n workflow hosting
+- Local infrastructure tooling
+
+### TheWall
+
+TheWall is the local network gateway and perimeter visibility source. It provides network-level telemetry and supports external SIEM forwarding into the Forge environment.
+
+Current TheWall focus areas:
+
+- Network gateway visibility
+- Syslog forwarding
+- UDM Pro event collection
+- Security monitoring support
+- Perimeter validation for approved local lab testing
+
+### Qwen
+
+Qwen is a local advisory LLM running through Ollama. It is used for human-reviewed operational summaries, investigation notes, and advisory response drafting.
+
+Qwen guardrails:
+
+- Advisory-only
+- No trading authority
+- No firewall authority
+- No secret handling
+- No direct remediation authority
+- Human review required before action
+
+### Shadow Ops
+
+Shadow Ops is the controlled lab validation track for authorized visibility and detection testing. It exists to confirm that local monitoring, logging, and advisory workflows can observe approved test activity without disruption.
+
+Shadow Ops is limited to owned local lab systems and does not include exploit attempts, credential testing, public IP scanning, wireless disruption, stealth, evasion, or unauthorized targets.
+
+### Ops Console
+
+Ops Console is the planned local operator command surface for dashboards, probe execution, event markers, response drafts, and status review.
+
+The intended console model is fast access, not bypassed control. Buttons and shortcuts should trigger safe scripts, dashboards, markers, or draft-generation workflows only.
 
 ---
 
-## 🛠️ Tech Stack
+## Current Architecture
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* Canvas API
+```text
+UDM Pro / TheWall -> Forge rsyslog -> Omnys evidence path
+Wazuh -> Omnys visibility probe -> local reports and events
+Omnys -> n8n attention bridge -> Qwen advisory workflow
+Human operator -> review, approve, document, and act
+```
 
----
+Core doctrine:
 
-## 🚀 Getting Started
-
-This project currently operates as a front-end platform prototype and can be run locally:
-
-```bash
-npm install
-npm run dev
+```text
+Omnys observes.
+Wazuh stores security events.
+TheWall provides network telemetry.
+n8n routes workflows.
+Qwen advises.
+Human approval remains required.
 ```
 
 ---
 
-## 🧭 Development Roadmap
+## Current Milestones
 
-### Phase 1 — Interface Foundation
+### Confirmed
 
-✅ Dashboard architecture
+- Wazuh services running on the Forge Server
+- Wazuh alert evidence available locally
+- Omnys Wazuh visibility probe operational
+- Forge Server and local workstation telemetry visible in Wazuh sample window
+- Omnys-to-n8n attention bridge operational
+- UDM Pro / TheWall external SIEM forwarding confirmed
+- UDM Pro CEF syslog routed into local Omnys evidence path
 
-✅ Visualization layer
+### In Progress
 
-✅ System monitoring views
-
-### Phase 2 — Telemetry Integration
-
-⬜ Log ingestion
-
-⬜ Security events
-
-⬜ Infrastructure telemetry
-
-### Phase 3 — AI-Assisted Operations
-
-⬜ Event analysis
-
-⬜ Operational recommendations
-
-⬜ Natural language interactions
-
-### Phase 4 — Platform Orchestration
-
-⬜ Multi-system awareness
-
-⬜ Service coordination
-
-⬜ Cross-platform automation
-
-### Phase 5 — Autonomous Ecosystem Expansion
-
-⬜ Sensor integration
-
-⬜ Robotics support
-
-⬜ Distributed operational agents
+- UDM Pro / TheWall visibility probe
+- Sensitive-field redaction for network telemetry summaries
+- Omnys probe organization and module refactor
+- Shadow Ops authorized visibility training checklist
+- Ops Console macro keypad command surface design
 
 ---
 
-## 📌 Project Status
+## Featured Projects
+
+### Professor Robin — AI-Powered Certification Tutor
+
+Professor Robin is a voice-enabled AI tutoring assistant built with Flask, Ollama, Whisper, and text-to-speech support. It is designed to support active recall, certification study, and local AI-assisted learning workflows.
+
+Key capabilities:
+
+- Voice input through speech-to-text
+- Voice output through text-to-speech
+- Local LLM support through Ollama
+- Browser-based Flask interface
+- Tutor-style persona and structured study flow
+
+### NEX — AI-Assisted Development Companion
+
+NEX is a local AI-assisted development companion for system design, code generation, document analysis, and structured reasoning workflows.
+
+Focus areas:
+
+- Memory persistence
+- File ingestion and summarization
+- Structured reasoning responses
+- Threaded UI interaction
+- Engineering workflow support
+
+### Om-Call — AI Communication Prototype
+
+Om-Call is a multilingual AI communication prototype for real-time translation and call-center workflow simulation using generative AI and voice processing.
+
+Focus areas:
+
+- Translation workflows
+- Voice simulation
+- Communication support
+- AI-assisted service desk concepts
+
+### Gravity
+
+Gravity is a private executive-assistant concept focused on task support, personal operations, and future AI-assisted productivity workflows.
+
+---
+
+## Security and Governance Principles
+
+Forge AI Tools is designed around practical security boundaries:
+
+- Read-only observation by default
+- Human approval before remediation
+- No credential testing outside authorized lab scope
+- No public target scanning
+- No automated firewall changes from advisory systems
+- No secrets sent to advisory LLM workflows
+- Local evidence remains local unless redacted
+- Sensitive telemetry is summarized before advisory review
+
+The long-term goal is to make the environment harder to discover, harder to misuse, easier to observe, and faster to recover.
+
+---
+
+## Technology Stack
+
+### AI and Automation
+
+- Python
+- Flask
+- Ollama
+- Qwen models
+- OpenAI Whisper
+- pyttsx3
+- n8n
+- REST APIs
+
+### Security and Infrastructure
+
+- Wazuh SIEM
+- UDM Pro / TheWall
+- Syslog / rsyslog
+- Linux services
+- Bash
+- PowerShell
+- VLANs and VPN concepts
+
+### Frontend and Interface Prototypes
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Canvas API
+- HTML / CSS
+
+### Identity and Enterprise Concepts
+
+- IAM / PAM concepts
+- Okta
+- SailPoint
+- Microsoft Entra ID
+- HIPAA, SOX, and NIST-aligned thinking
+
+---
+
+## Certifications
+
+| Certification | Status |
+| --- | --- |
+| CompTIA Security+ (SY0-701) | Active 2025-2028 |
+| Oracle Cloud Infrastructure AI Foundations | Active 2025-2027 |
+
+---
+
+## Project Status
 
 Active development.
 
-Current focus is expanding Omnys from a dashboard prototype into a centralized AI-assisted operations platform capable of supporting security, infrastructure, automation, and future autonomous systems.
+Current emphasis is on building a local AI-assisted operations and security visibility stack with disciplined guardrails, practical telemetry, human-reviewed advisory workflows, and professional documentation.
 
 ---
 
-### 📞 Om-Call
-A multilingual AI communication prototype simulating 
-real-time translation and call-center workflows 
-using generative AI and voice processing.
+## Connect
 
-**Stack:** Python · Generative AI · Translation APIs · 
-Voice Simulation
-
+- Website: [forgeai.tools](http://forgeai.tools)
+- Email: michael@forgeai.tools
+- LinkedIn: [Michael Anderson](https://www.linkedin.com/in/iammichaelanderson)
+- GitHub: [ForgeAI-Tools](https://github.com/ForgeAI-Tools)
 
 ---
 
-### 🧠 Maester Qwen
-A local AI reasoning system built on Ollama using the Qwen 3 14B model and WebUI.
-
-Designed to demonstrate local LLM deployment and serve as a foundation for agentic AI workflows, including planned integration with external APIs for reference retrieval and tool-augmented reasoning.
-
-Focus areas:
-- Local inference and system control
-- Agentic workflow design (tool use, API calls)
-- Structured reasoning and response generation
-
-→ See docs: /docs/maester-qwen.md
----
-
-### 🔒 Gravity
-*Private development — Castle Black operations.*
-Executive AI assistant. Always at your 6.
-
----
-🧱 System Architecture
-
-Forge AI Tools is structured across three core layers:
-
-Engineering Layer
-→ Infrastructure, automation, and system development (ForgeAI-Tools)
-
-Intelligence Layer
-→ Local AI reasoning systems and agentic workflows (Maester Qwen, NEX)
-
-Content Layer
-→ Generative media and user-facing AI applications (Professor Robin, AIFU)
-
-This layered design supports scalable AI system development, from infrastructure to intelligent decision-making to final output.
----
-
-## 🎓 Certifications
-
-| Certification | Status |
-|--------------|--------|
-| CompTIA Security+ (SY0-701) | ✅ Active 2025–2028 |
-| Oracle Cloud Infrastructure AI Foundations | ✅ Active 2025-2027 |
-
----
-
-## 🛠️ Skills & Stack
-
-**AI & Generative AI**
-- Large Language Models (LLMs) — local deployment 
-via Ollama
-- RAG pipeline architecture — Azure AI Search + LLM orchestration
-- Agentic AI patterns — tool usage, orchestration, and multi-step workflows
-- Azure OpenAI API · OCI AI Services · LangChain
-
-**Security & Identity**
-- IAM/PAM — Okta · SailPoint · Azure Entra ID
-- Compliance frameworks — HIPAA · SOX · NIST
-- Security operations — SIEM · EDR · anomaly detection
-
-**Engineering & Automation**
-- Python · PowerShell · Bash · REST APIs · SQL
-- Microservices · data pipelines · CI/CD concepts
-
-**Infrastructure**
-- Ubiquiti Dream Machine Pro · VLANs · VPN
-- Local AI server deployment · Virtual Labs
-
----
-
-## 🌍 Connect
-
-- 🌐 [forgeai.tools](http://forgeai.tools)
-- ✉️ michael@forgeai.tools
-- 💼 [LinkedIn — Michael Anderson](https://www.linkedin.com/in/iammichaelanderson)
-- 🐙 [GitHub — ForgeAI-Tools](https://github.com/ForgeAI-Tools)
-
----
-
-*"Building the tools. Securing the systems. 
-Automating the future."*
+*Building the tools. Securing the systems. Automating the future.*
